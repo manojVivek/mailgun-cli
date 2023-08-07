@@ -1,6 +1,6 @@
 builds:
   -
-    main: cmd/mailgun
+    main: ./cmd/mailgun
 
 archives:
 - name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
